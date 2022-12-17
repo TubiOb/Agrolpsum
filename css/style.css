@@ -608,6 +608,10 @@
         font-size: 14px;
     }
     
+    .container5 i {
+        margin-right: 7px;
+    }
+    
     h5 {
         font-size: 1em;
     }
@@ -616,7 +620,6 @@
         display: flex;
         color: white;
         width: 40%;
-        /* flex-direction: column; */
         flex-wrap: nowrap;
         position: relative;
         justify-content: center;
@@ -627,7 +630,6 @@
         align-items: center;
         justify-content: space-evenly;
         text-align: left;
-        /* row-gap: 10px; */
     }
     
     th,
