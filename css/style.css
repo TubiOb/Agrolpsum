@@ -40,7 +40,7 @@ header {
     min-height: 70px; */
 }
 
-.heada {
+.header-container {
     background-color: white;
     margin: auto;
     padding: 5px 0;
@@ -85,7 +85,7 @@ header {
     display: none;
     text-align: center;
     background-color: white;
-    color: white;
+    color: green;
     z-index: 100;
 }
 
@@ -140,7 +140,7 @@ header {
     display: block;
 }
 
-.heada a:hover,
+.header-container a:hover,
 .nav-1:hover,
 .nav-items-1 a:hover {
     /* background-color: gray; */
@@ -297,14 +297,18 @@ aside#sidebar {
 }
 
 .skick {
-    width: 100%;
+    max-width: 100%;
 }
 
 .skick h4 {
     margin-left: 45px;
 }
 
-.container2 .small {
+.container2 .small,
+.container2 #ratings,
+.container2 #ratings1,
+.container2 #ratings2,
+.container2 #ratings3 {
     width: 250px;
     height: 250px;
     padding: 5px;
@@ -416,7 +420,7 @@ h3 {
 }
 
 .container4 {
-    width: 90%;
+    max-width: 80%;
     margin: 40px;
     overflow: hidden;
     justify-content: space-evenly;
@@ -433,23 +437,33 @@ h3 {
     box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
 }
 
-aside#sidebar {
+aside#sidebar,
+aside#sidebar1 {
     width: 30%;
     margin-top: 10px;
 }
 
-article#main-col {
+article#main-col,
+article#second-col {
     width: 50%;
 }
 
-.container2 #ratings i {
+.container2 #ratings i,
+.container2 #ratings i,
+.container2 #ratings1 i,
+.container2 #ratings2 i,
+.container2 #ratings3 i {
     width: 30px;
     height: 30px;
     /* margin-bottom: 20px;
         margin-top: 20px; */
 }
 
-.container2 #ratings p {
+.container2 #ratings p,
+.container2 #ratings p,
+.container2 #ratings1 p,
+.container2 #ratings2 p,
+.container2 #ratings3 p {
     margin-left: 10px;
 }
 
@@ -656,25 +670,32 @@ td {
 
 footer p {
     color: white;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
 }
 
 
 /* Media Queries */
 
 @media(max-width:760px) {
-    .heada #branding,
-    .heada nav,
-    .heada nav li,
+    .header-container #branding,
+    .header-container nav,
+    .header-container nav li,
     #newsletter h1,
     #newsletter p,
     #newsletter form,
     article#main-col,
-    aside#sidebar {
+    article#second-col,
+    aside#sidebar,
+    aside#sidebar1 {
         float: none;
         text-align: center;
         width: 100%;
     }
-    .heada {
+    .header-container {
         padding-bottom: 10px;
     }
     .middle-body {
