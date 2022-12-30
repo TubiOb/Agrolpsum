@@ -729,13 +729,13 @@ footer .foot h3 {
         font-size: 13px;
     }
     .skick {
-        width: 70%;
+        width: 90%;
     }
     .skick h4 {
         font-size: 18px;
     }
     article#main-col p {
-        font-weight: lighter;
+        font-weight: 100;
         font-size: 14px;
     }
     #newsletter button {
