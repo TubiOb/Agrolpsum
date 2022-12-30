@@ -799,4 +799,10 @@ footer .foot h3 {
     footer .container>p {
         font-size: 13px;
     }
+    .foot .small h3 {
+        font-size: 14px;
+    }
+    .foot .small p {
+        font-size: 12px;
+    }
 }
