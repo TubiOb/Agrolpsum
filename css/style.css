@@ -677,8 +677,8 @@ footer .foot h3 {
     aside#sidebar1,
     .top,
     .top .image-container,
-    /* .container2, */
-    .container2 .small {
+    .container2 .small,
+    .container3 .small {
         float: none;
         text-align: center;
         width: 100%;
@@ -751,7 +751,8 @@ footer .foot h3 {
         width: 100%;
         margin-bottom: 5px;
     }
-    .container2 .small {
+    .container2 .small,
+    .container3 .small {
         width: 60%;
         padding: 5px;
     }
