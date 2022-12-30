@@ -678,7 +678,11 @@ footer .foot h3 {
     .top,
     .top .image-container,
     .container2 .small,
-    .container3 .small {
+    .container3 .small,
+    .container2 #ratings,
+    .container2 #ratings1,
+    .container2 #ratings2,
+    .container2 #ratings3 {
         float: none;
         text-align: center;
         width: 100%;
@@ -752,17 +756,32 @@ footer .foot h3 {
         margin-bottom: 5px;
     }
     .container2 .small,
-    .container3 .small {
+    .container3 .small,
+    .container2 #ratings,
+    .container2 #ratings1,
+    .container2 #ratings2,
+    .container2 #ratings3 {
         width: 60%;
         padding: 5px;
+        text-align: center;
     }
     .container2 .small i {
         font-size: large;
     }
-    .container2 .small p {
+    .container2 .small p,
+    .container3 .small p,
+    .container2 #ratings p,
+    .container2 #ratings1 p,
+    .container2 #ratings2 p,
+    .container2 #ratings3 p {
         font-size: 14px;
     }
-    .container2 .small h3 {
+    .container2 .small h3,
+    .container3 .small h3,
+    .container2 #ratings h3,
+    .container2 #ratings1 h3,
+    .container2 #ratings2 h3,
+    .container2 #ratings3 h3 {
         font-size: 14px;
     }
 }
