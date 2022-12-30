@@ -734,6 +734,9 @@ footer .foot h3 {
     .skick h4 {
         font-size: 16px;
     }
+    article#main-col {
+        padding: 5px;
+    }
     article#main-col p {
         font-weight: normal;
         font-size: 14px;
