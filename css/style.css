@@ -735,7 +735,9 @@ footer .foot h3 {
         font-size: 16px;
     }
     article#main-col {
+        width: 90%;
         padding: 5px;
+        margin: auto;
     }
     article#main-col p {
         font-weight: normal;
