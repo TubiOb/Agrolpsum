@@ -676,7 +676,9 @@ footer .foot h3 {
     aside#sidebar,
     aside#sidebar1,
     .top,
-    .top .image-container {
+    .top .image-container,
+    /* .container2, */
+    .container2 .small {
         float: none;
         text-align: center;
         width: 100%;
@@ -693,8 +695,6 @@ footer .foot h3 {
     .rightnav button {
         display: block;
         margin: auto;
-        /* float: none;
-        text-align: center; */
     }
     .top .overlay {
         width: 50%;
@@ -728,9 +728,15 @@ footer .foot h3 {
     .middle-body .container .customer-numbers p {
         font-size: 13px;
     }
-    .rightnav,
-    .leftnav {
-        float: left;
+    .skick {
+        width: 70%;
+    }
+    .skick h4 {
+        font-size: 18px;
+    }
+    article#main-col p {
+        font-weight: lighter;
+        font-size: 14px;
     }
     #newsletter button {
         display: block;
@@ -739,5 +745,17 @@ footer .foot h3 {
     #newsletter form input[type="email"] {
         width: 100%;
         margin-bottom: 5px;
+    }
+    .container2 .small {
+        width: 60%;
+    }
+    .container2 .small i {
+        font-size: large;
+    }
+    .container2 .small p {
+        font-size: 14px;
+    }
+    .container2 .small h3 {
+        font-size: 14px;
     }
 }
