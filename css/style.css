@@ -395,10 +395,6 @@ aside#sidebar {
     margin-top: 10px;
 }
 
-.container2 .small p {
-    margin-left: 10px;
-}
-
 .container2 .small h3 {
     margin-left: 10px;
     font-size: 15px;
@@ -668,9 +664,11 @@ footer .foot h3 {
     .rightnav,
     .rightnav li,
     .rightnav button,
+    footer .skick,
     #newsletter h1,
     #newsletter p,
     #newsletter form,
+    #newsletter .container,
     article#main-col,
     article#second-col,
     aside#sidebar,
@@ -764,6 +762,10 @@ footer .foot h3 {
         width: 60%;
         padding: 5px;
         text-align: center;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
     }
     .container2 .small i {
         font-size: large;
@@ -783,5 +785,18 @@ footer .foot h3 {
     .container2 #ratings2 h3,
     .container2 #ratings3 h3 {
         font-size: 14px;
+    }
+    .container4 {
+        width: 80%;
+        margin: auto;
+    }
+    footer .skick {
+        text-align: center;
+    }
+    footer .skick h4 {
+        font-size: 13px;
+    }
+    footer .container>p {
+        font-size: 13px;
     }
 }
