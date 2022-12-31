@@ -814,6 +814,9 @@ footer .foot h3 {
     .foot .small p {
         font-size: 12px;
     }
+    .foot .small p {
+        margin: 2px;
+    }
     .copyright {
         font-size: 13px;
     }
