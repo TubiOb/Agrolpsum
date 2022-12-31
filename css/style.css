@@ -680,7 +680,8 @@ footer .foot h3 {
     .container2 #ratings,
     .container2 #ratings1,
     .container2 #ratings2,
-    .container2 #ratings3 {
+    .container2 #ratings3,
+    .foot .small {
         float: none;
         text-align: center;
         width: 100%;
@@ -698,12 +699,17 @@ footer .foot h3 {
         display: block;
         margin: auto;
     }
+    .header-container .branding a,
+    .header-container nav li,
+    .rightnav li {
+        border-bottom: 2px solid red;
+        margin-bottom: 4px;
+    }
     .top .overlay {
         width: 50%;
         height: 60%;
         top: 50%;
         left: 50%;
-        border: 2px solid darkmagenta;
     }
     .overlay h5 {
         margin-top: 0;
@@ -722,7 +728,6 @@ footer .foot h3 {
     }
     .middle-body .container {
         width: 60%;
-        border: 2px solid brown;
     }
     .middle-body .container .customer-numbers h4 {
         font-size: medium;
@@ -807,5 +812,8 @@ footer .foot h3 {
     }
     .copyright {
         font-size: 13px;
+    }
+    .foot .small {
+        flex-direction: column;
     }
 }
