@@ -699,11 +699,15 @@ footer .foot h3 {
         display: block;
         margin: auto;
     }
-    .header-container .branding a,
     .header-container nav li,
     .rightnav li {
-        border-bottom: 2px solid red;
+        border-bottom: 1px solid gray;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 0px;
         margin-bottom: 4px;
+        /* border-bottom-width: 1%; */
+        text-decoration: underline;
+        /* text-decoration-color: 2px red solid; */
     }
     .top .overlay {
         width: 50%;
